@@ -1,0 +1,30 @@
+{
+  "name": "more-modern-css-reset",
+  "version": "1.0.0",
+  "description": "A bare-bones CSS reset for modern web development and successor of the `modern-css-reset`",
+  "main": "./dist/reset.min.css",
+  "scripts": {
+    "build": "bun run --bun build:bundle && bun run --bun build:minify",
+    "build:bundle": "lightningcss --bundle src/reset.css -o dist/reset.css",
+    "build:minify": "lightningcss --minify src/reset.css -o dist/reset.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdwz/more-modern-css-reset.git"
+  },
+  "keywords": [
+    "css",
+    "css-reset",
+    "reset",
+    "reset-css"
+  ],
+  "author": "Marc Redwerkz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdwz/more-modern-css-reset/issues"
+  },
+  "homepage": "https://github.com/rdwz/more-modern-css-reset#readme",
+  "devDependencies": {
+    "lightningcss-cli": "1.22.1"
+  }
+}
