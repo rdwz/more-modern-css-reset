@@ -12,25 +12,25 @@ A tiny little reset that you can use as the basis of your CSS projects. You can 
 NPM:
 
 ```sh
-npm install --save-dev modern-css-reset
+npm install --save-dev more-modern-css-reset
 ```
 
 PNPM:
 
 ```sh
-pnpm install --save-dev modern-css-reset
+pnpm install --save-dev more-modern-css-reset
 ```
 
 Yarn:
 
 ```sh
-yarn add modern-css-reset
+yarn add more-modern-css-reset
 ```
 
 Bun:
 
 ```sh
-bun install --dev modern-css-reset
+bun install --dev more-modern-css-reset
 ```
 
 Unpkg CDN:
@@ -53,10 +53,10 @@ First, let's clone this repository:
 git clone https://github.com/rdwz/more-modern-css-reset.git
 ```
 
-Then, go to `modern-css-reset` directory:
+Then, go to `more-modern-css-reset` directory:
 
 ```sh
-cd modern-css-reset
+cd more-modern-css-reset
 ```
 
 And now, you can minify and move the main reset to the `dist` by running:
